@@ -1,18 +1,11 @@
-x = prompt('Digite o tamanho no eixo X')
-y = prompt('Digite o tamanho no eixo Y')
+const submit = document.getElementsByClassName("submit")[0];
 
-area = x * y
-console.log(area)
+submit.addEventListener("click", () => {
+    const a1 = document.getElementById("x");
+    const a2 = document.getElementById("y");
 
-alert('Seu terreno possui ' + area + 'm')
+    const a1Value = parseFloat(a1.value);
+    const a2Value = parseFloat(a2.value);
 
-/*let timeout
-
-function myFunction() {
-  timeout = setTimeout(alertFunc, 3000)
-}
-
-function alertFunc() {
-  alert('Hello!')
-}
-*/
+    alert(`A soma é ${a1Value * a2Value}`);
+});
