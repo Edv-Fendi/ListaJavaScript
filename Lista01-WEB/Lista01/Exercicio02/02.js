@@ -5,5 +5,6 @@ submit.addEventListener("click", () => {
 
     const a1Value = parseFloat(a1.value);
 
-    alert(`A soma é ${a1Value * 4}`);
+    document.getElementById("resultado").innerHTML =
+        "Resultado: " + a1Value * 4 + " Ferraduras";
 });
