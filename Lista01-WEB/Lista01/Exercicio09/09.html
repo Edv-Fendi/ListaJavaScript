@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column">
+
+        <div class="title">
+            <h1>Fábrica de camisetas</h1>
+            <ul>
+                <li>
+                    <p>Camiseta P: R$ 10,00</p>
+                </li>
+                <li>
+                    <p>Camiseta M: R$ 12,00</p>
+                </li>
+                <li>
+                    <p>Camiseta G: R$ 12,00</p>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <img src="D_NQ_NP_815004-MLB43514349237_092020-O.jpg" alt="Imagem de camisetas coloridas">
+
+        <div style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  width: 100%;
+                " class="forms">
+            <h3>Quantas camisetas P você comprou: (Apenas Numeros):</h2>
+                <input style="font-size: 1rem;" type="number" id="tamP" placeholder="Camisetas P" />
+
+                <h3>Quantas camisetas M você comprou: (Apenas Numeros):</h2>
+                    <input style="font-size: 1rem;" type="number" id="tamM" placeholder="Camisetas M" />
+
+                    <h3>Quantas camisetas G você comprou: (Apenas Numeros):</h2>
+                        <input style="font-size: 1rem;" type="number" id="tamG" placeholder="Camisetas G" />
+
+                        <p style="font-size: 200%" id="resultado"></p>
+                        <button style="font-size: 1.2rem; margin-top: 0.5%" class="submit">
+                            Calcular
+                        </button>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+<script src="09.js"></script>
+
+</html>
+
+<!-- Uma fábrica de camisetas produz os tamanhos pequeno, médio e grande, cada uma sendo vendida respectivamente por 10, 12 e -->
+<!-- 15 reais. Construa um algoritmo em que o usuário forneça a quantidade de camisetas -->
+<!-- pequenas, médias e grandes referentes a uma venda, e a máquina informe quanto será o valor arrecadado. -->
